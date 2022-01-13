@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast & Furious</title>
+    <link rel="stylesheet" type="text/css" href="fast & furious.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="mainDiv">
+      <div class="link">
+        &nbsp;&nbsp;
+        <b>Fast & Furious</b>
+          <div class="search-box">
+            <input type="text" class="form-control">
+              <span class="input-group-text"><i class="fa fa-search"></i></span>
+          </div>
+            <div class="top-right">
+              <div class="dropdown">
+                &nbsp;<span>My Account</span>
+                <div class="dropdown-content">
+                    <svg class="bi bi-person-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                      <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+                    </svg> My Profile
+                    <div class="dropdown-divider"></div>
+                    <svg class="bi bi-plus-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                      <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                      <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    </svg> Fast and Furious Plus Zone
+                    <div class="dropdown-divider"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-text-fill" viewBox="0 0 16 16">
+                    <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1z"/>
+                    </svg> My Chats
+                    <div class="dropdown-divider"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                      <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                    </svg> Notifications
+                    <div class="dropdown-divider"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                      <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
+                      <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path fill-rule="evenodd" d="M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+                    </svg> SuperCoin Zone
+                    <div class="dropdown-divider"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
+                      <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z"/>
+                    </svg> Gift Cards
+                    <div class="dropdown-divider"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-landscape-fill" viewBox="0 0 16 16">
+                      <path d="M2 12.5a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H2zm11-6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                    </svg> Coupons
+                    <div class="dropdown-divider"></div>
+                    <svg class="bi bi-pip-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm7 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-5z"/>
+                    </svg> Orders 
+                    <div class="dropdown-divider"></div>
+                    <svg class="bi bi-heart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg> Wishlist
+                    <div class="dropdown-divider"></div>
+                    <svg class="bi bi-pip-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm7 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-5z"/>
+                    </svg> Rewards</p></h5>
+                    <div class="dropdown-divider"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
+                      <path d="M7.5 1v7h1V1h-1z"/>
+                      <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z"/>
+                    </svg> Logout
+                </div>
+              </div>
+                &nbsp;
+                <div class="dropdown">
+                  <span>More</span>
+                  <div class="dropdown-content">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bell-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                    </svg><h5><p> Notification Preferences
+                      <div class="dropdown-divider"></div>
+                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 4h14v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm7-2.5A2.5 2.5 0 0 0 5.5 4h-1a3.5 3.5 0 1 1 7 0h-1A2.5 2.5 0 0 0 8 1.5z"/>
+                      </svg> Sell on Fast and Furious
+                      <div class="dropdown-divider"></div>
+                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-question-diamond-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435zM6.57 6.033H5.25C5.22 4.147 6.68 3.5 8.006 3.5c1.397 0 2.673.73 2.673 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.355H7.117l-.007-.463c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.901 0-1.358.603-1.358 1.384zm1.251 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
+                      </svg> 24X7 Customer Care
+                      <div class="dropdown-divider"></div>
+                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-graph-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h1v16H0V0zm1 15h15v1H1v-1z"/>
+                        <path fill-rule="evenodd" d="M14.39 4.312L10.041 9.75 7 6.707l-3.646 3.647-.708-.708L7 5.293 9.959 8.25l3.65-4.563.781.624z"/>
+                        <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4h-3.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg> Advertise
+                      <div class="dropdown-divider"></div>
+                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 5a.5.5 0 0 0-1 0v4.793L5.354 7.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 9.793V5z"/>
+                      </svg> Download App</p></h5>
+                  </div>
+
+                </div>
+            &nbsp;
+            <svg class="bi bi-cart-dash" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M6 7.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+              <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg><b>Cart</b>
+            </div>
+      </div>
+        <div class="align">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <b>Electronics</b>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <div class="row">
+                     <div class="col-sm-3">
+                     <h5><b>Mobiles</h5></b>
+                    <a class="dropdown-item" href="#">Mi</a>
+                    <a class="dropdown-item" href="#">Realme</a>
+                    <a class="dropdown-item" href="#">Samsung </a>
+                    <a class="dropdown-item" href="#">OPPO </a>
+                    <a class="dropdown-item" href="#">Apple </a>
+                    <a class="dropdown-item" href="#">Vivo </a>
+                    <a class="dropdown-item" href="#">Honor </a>
+                    <a class="dropdown-item" href="#">Asus </a>
+                    <a class="dropdown-item" href="#">Redmi8A </a>
+                    </div>
+                    <div class="col-sm-3">
+                    <h5><b>Moblie Accessories</h5></b>
+                    <a class="dropdown-item" href="#">Mobile Cases </a>
+                    <a class="dropdown-item" href="#">Mobile Chargers </a>
+                    <a class="dropdown-item" href="#">Memory Card </a>
+                    <a class="dropdown-item" href="#">Mobile Cables </a>
+                    <a class="dropdown-item" href="#">Mobile Holders </a>
+                    <a class="dropdown-item" href="#">Smart Headphones </a>
+                    <a class="dropdown-item" href="#">ScreenGuards </a>
+                    <a class="dropdown-item" href="#">Power Banks </a>
+                    <h5><b>Smart Wearable Tech</h5></b>
+                    <a class="dropdown-item" href="#">Smart Watches </a>
+                    <a class="dropdown-item" href="#">Smart Glasses </a>
+                    <a class="dropdown-item" href="#">Smart Bands </a>
+                    <h5><b>Health Care Appliances</h5></b>
+                    <a class="dropdown-item" href="#">BP Monitors </a>
+                    <a class="dropdown-item" href="#">Weighing Scale </a>
+                    </div>
+                    <div class="col-sm-3">
+                    <h5><b>Laptops</h5></b>
+                    <a class="dropdown-item" href="#">Gaming Laptops </a>
+                    <h5><b>Computer Accessories</h5></b>
+                    <a class="dropdown-item" href="#">External Hard Disks </a>
+                    <a class="dropdown-item" href="#">Pendrives </a>
+                    <a class="dropdown-item" href="#">Laptop Skins & Decals </a>
+                    <a class="dropdown-item" href="#">Laptop Bags </a>
+                    <a class="dropdown-item" href="#">Mouse </a>
+                    <h5><b>Computer Peripherals</h5></b>
+                    <a class="dropdown-item" href="#">Printers & Ink Cartridges </a>
+                    <a class="dropdown-item" href="#">Monitors </a>
+                    <h5><b>Tablets</h5></b>
+                    <a class="dropdown-item" href="#">Apple iPads </a>
+                    </div>
+                    <div class="col-sm-3">
+                    <h5><b>Speakers</h5></b>
+                    <a class="dropdown-item" href="#">Home Audio Speakers </a>
+                    <a class="dropdown-item" href="#">Home Theaters </a>
+                    <a class="dropdown-item" href="#">SoundBars </a>
+                    <a class="dropdown-item" href="#">Bluetooth Speakers </a>
+                    <a class="dropdown-item" href="#">DTH Set Top Box </a>
+                    <h5><b>Smart Home Automation</h5></b>
+                    <a class="dropdown-item" href="#">Google Nest </a>
+                    <h5><b>Camera</h5></b>
+                    <a class="dropdown-item" href="#">DSLR & Mirrorless </a>
+                    <a class="dropdown-item" href="#">Bridge Cameras </a>
+                    <a class="dropdown-item" href="#">Sports & Action </a>
+                    <h5><b>Camera Accessories</h5></b>
+                    <a class="dropdown-item" href="#">Lens </a>
+                    <a class="dropdown-item" href="#">Tripods</a>
+                    <h5><b>Network Components</h5></b>
+                    <a class="dropdown-item" href="#">Routers </a>
+                    </div>
+                    </div>
+                 </div>
+                </li>
+            <li class="nav-item dropdown" >
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <b>TV & Appliances</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h5><b>Television</h5></b>
+                    <a class="dropdown-item" href="#">Mi </a>
+                    <a class="dropdown-item" href="#">Vu </a>
+                    <a class="dropdown-item" href="#">Thomson </a>
+                    <a class="dropdown-item" href="#">Samsung </a>
+                    <a class="dropdown-item" href="#">LG </a>
+                    <a class="dropdown-item" href="#">BPL </a>
+                    <a class="dropdown-item" href="#">Nokia </a>
+                    <a class="dropdown-item" href="#">Motorola </a>
+                    <h5><b>Shop by Screen Size</h5></b>
+                    <a class="dropdown-item" href="#">24 & below </a>
+                    <a class="dropdown-item" href="#">28-32 </a>
+                    <a class="dropdown-item" href="#">39-43 </a>
+                    <a class="dropdown-item" href="#">48-55 </a>
+                  </div>
+                    <div class="col-md-8">
+                    <h5><b>washing Machine</h5></b>
+                    <a class="dropdown-item" href="#">Fully Automatic Load </a>
+                    <a class="dropdown-item" href="#">Semi Automatic Load </a>
+                    <a class="dropdown-item" href="#">Fully Automatic Top</a>
+                    <h5><b>Air Conditioners</h5></b>
+                    <a class="dropdown-item" href="#">Inverter AC </a>
+                    <a class="dropdown-item" href="#">Split ACs </a>
+                    <a class="dropdown-item" href="#">Window ACs </a>
+                    <h5><b>Shop by Brand</h5></b>
+                    <a class="dropdown-item" href="#">LG </a> 
+                    <a class="dropdown-item" href="#">Hitachi </a> 
+                    <a class="dropdown-item" href="#">Carrier </a> 
+                    <a class="dropdown-item" href="#">LLoyd </a> 
+                    <h5><b>Refrigerators</h5></b>
+                    <a class="dropdown-item" href="#">Single Door</a> 
+                    <a class="dropdown-item" href="#">Double Door </a> 
+                    <a class="dropdown-item" href="#">Tripple Door </a> 
+                    <a class="dropdown-item" href="#">Side by Side </a> 
+                    <a class="dropdown-item" href="#">Convertible </a> 
+                    </div>
+                    <div class="col-md-3">
+                    <h5><b>Kitchen Appliances</h5></b>
+                    <a class="dropdown-item" href="#">Microwave Ovens </a> 
+                    <a class="dropdown-item" href="#">OTG </a> 
+                    <a class="dropdown-item" href="#">Juicer/Mixer </a> 
+                    <a class="dropdown-item" href="#">Electric Kettle </a> 
+                    <a class="dropdown-item" href="#">Induction Cooktops </a> 
+                    <a class="dropdown-item" href="#">Chimneys </a> 
+                    <a class="dropdown-item" href="#">Hand Blenders </a> 
+                    <a class="dropdown-item" href="#">Sandwich Makers </a> 
+                    <a class="dropdown-item" href="#">Pop Up Toasters </a> 
+                    <a class="dropdown-item" href="#">Electric Cookers </a> 
+                    <a class="dropdown-item" href="#">Wet Grinders </a> 
+                    <a class="dropdown-item" href="#">Food Processors </a> 
+                    <a class="dropdown-item" href="#">Coffee Makers </a> 
+                    <a class="dropdown-item" href="#">Dishwashers </a> 
+                    </div>
+                    <div class="col-md-6">
+                    <h5><b>Small Home Appliances</h5></b>
+                    <a class="dropdown-item" href="#">Irons </a> 
+                    <a class="dropdown-item" href="#">Water Purifiers </a> 
+                    <a class="dropdown-item" href="#">Fans </a> 
+                    <a class="dropdown-item" href="#">Air Coolers </a> 
+                    <a class="dropdown-item" href="#">Inverters </a> 
+                    <a class="dropdown-item" href="#">Vacuum Cleaners </a> 
+                    <a class="dropdown-item" href="#">Sewing Machines </a> 
+                    <a class="dropdown-item" href="#">Water Geysers </a> 
+                    <a class="dropdown-item" href="#">Immersion Rods </a> 
+                    <a class="dropdown-item" href="#">Voltage Stabilizers </a> 
+                    <h5><b>Top Brands</h5></b>
+                    <a class="dropdown-item" href="#">Livpure </a> 
+                    <a class="dropdown-item" href="#">Philips </a> 
+                    <a class="dropdown-item" href="#">Bajaj </a> 
+                    <a class="dropdown-item" href="#">IFB </a> 
+                    <a class="dropdown-item" href="#">Eurekka Forbes </a> 
+                    </div>
+                  </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <b>Women</b>
+                </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h5><b>Winter & Seasonal Wear</h5></b>
+                  <a class="dropdown-item" href="#">Sweaters& Pulllovers</a>
+                  <a class="dropdown-item" href="#">Sweatshirts</a>
+                  <a class="dropdown-item" href="#">Jackets </a>
+                  <a class="dropdown-item" href="#">Cardigans </a>
+                  <a class="dropdown-item" href="#">Shrugs </a>
+                  <a class="dropdown-item" href="#">Coat & Blazers </a>
+                  <h5><b>Western Wear</h5></b>
+                  <a class="dropdown-item" href="#">Top, T-Shirts </a>
+                  <a class="dropdown-item" href="#">Dresses & Skirts </a>
+                  <a class="dropdown-item" href="#">Jeans </a>
+                  <a class="dropdown-item" href="#">Leggings & Jeggings </a>
+                  <a class="dropdown-item" href="#">Rrousers & Capris </a>
+                  <a class="dropdown-item" href="#">Lingerie </a>
+                  <a class="dropdown-item" href="#">Bras </a>
+                  <a class="dropdown-item" href="#">Night Dresses </a>
+                  <h5><b>Ethnic Wear</h5></b>
+                  <a class="dropdown-item" href="#">Sarees </a> 
+                  <a class="dropdown-item" href="#">Kurtas & Kurtis </a> 
+                  <a class="dropdown-item" href="#">Dress Material </a> 
+                  <a class="dropdown-item" href="#">Lehanga </a> 
+                  <a class="dropdown-item" href="#">Blouse </a> 
+                  <a class="dropdown-item" href="#">Ethnic Bottoms </a> 
+                  <a class="dropdown-item" href="#">Anarkali Suits </a> 
+                  <a class="dropdown-item" href="#">Petticoats </a> 
+                  <a class="dropdown-item" href="#">Dupattas </a> 
+                  <a class="dropdown-item" href="#">Burqas </a> 
+                  <h5><b>Sandals</h5></b>
+                  <a class="dropdown-item" href="#">Flats </a> 
+                  <a class="dropdown-item" href="#">Heels </a> 
+                  <a class="dropdown-item" href="#">Wedges </a> 
+                  <a class="dropdown-item" href="#">Shoes </a> 
+                  <a class="dropdown-item" href="#">Boots </a> 
+                  <a class="dropdown-item" href="#">Sports Shoes </a> 
+                  <a class="dropdown-item" href="#">Casual Shoes </a> 
+                  <a class="dropdown-item" href="#">Slippers & Flip-Flop's </a> 
+                  <h5><b>Personal Care Appliances</h5></b>
+                  <a class="dropdown-item" href="#">Hair Straightners </a> 
+                  <a class="dropdown-item" href="#">Hair Dryers </a> 
+                  <a class="dropdown-item" href="#">Epilators </a> 
+                  <h5><b>Beauty & Grooming</h5></b>
+                  <a class="dropdown-item" href="#">Make Up </a> 
+                  <a class="dropdown-item" href="#">Skin Care </a> 
+                  <a class="dropdown-item" href="#">Hair Care </a> 
+                  <a class="dropdown-item" href="#">Bath & Spa </a> 
+                  <a class="dropdown-item" href="#">Deodrants & Perfumes </a> 
+                  <h5><b>Jewellery</h5></b>
+                  <a class="dropdown-item" href="#">Artificial Jewellery </a> 
+                  <a class="dropdown-item" href="#">Silver Jewellery </a> 
+                  <a class="dropdown-item" href="#">Precious Jewellery </a> 
+                  <a class="dropdown-item" href="#">Coins & Bars </a>
+                  <h5><b>Accessories</h5></b>
+                  <a class="dropdown-item" href="#">HandBags </a>
+                  <a class="dropdown-item" href="#">Shoulder Bags </a>
+                  <a class="dropdown-item" href="#">Totes </a>
+                  <a class="dropdown-item" href="#">Sling Bags </a>
+                  <a class="dropdown-item" href="#">Clutches </a>
+                  <a class="dropdown-item" href="#">Wallets & Belts </a>
+                  <a class="dropdown-item" href="#">Luggage & Travel </a>
+                 </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <b>Kids & Baby</b>
+                </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <h4><b>Boys Clothing</h4></b>
+                <a class="dropdown-item" href="#">Polos & T-Shirts</a>
+                <a class="dropdown-item" href="#">Ethnic</a>
+                <a class="dropdown-item" href="#">Shorts</a>
+                <h4><b>Girls Clothing</h4></b>
+                <a class="dropdown-item" href="#">Dresses & Skirts </a>
+                <a class="dropdown-item" href="#">Ethnic wear </a>
+                <a class="dropdown-item" href="#">T-shirts & Tops </a>
+                <h4><b>Baby Boy Clothing</h4></b>
+                <a class="dropdown-item" href="#">Body Suits </a>
+                <a class="dropdown-item" href="#">Polos & T-Shirts </a>
+                <h4><b>Baby Girl Clothing</h4></b>
+                <a class="dropdown-item" href="#">Body Suits </a>
+                <a class="dropdown-item" href="#">Dresses </a>
+                <h4><b>Boy's Footwear</h4></b>
+                <a class="dropdown-item" href="#">Sandals </a>
+                <a class="dropdown-item" href="#">Sports Shoes </a>
+                    <h4><b>Girls Footwear</h4></b>
+                    <a class="dropdown-item" href="#">Flats & Bellies </a> 
+                    <a class="dropdown-item" href="#">Sports Shoes </a> 
+                    <h4><b>Kids Winter Wear</h4></b>
+                    <a class="dropdown-item" href="#">Boys Winter Wear </a> 
+                    <a class="dropdown-item" href="#">Girls Winter Wear</a> 
+                    <a class="dropdown-item" href="#">Infants Winter Wear </a> 
+                    <a class="dropdown-item" href="#">Thermals </a> 
+                    <a class="dropdown-item" href="#">Kids Watches </a> 
+                    <a class="dropdown-item" href="#">Kids Sunglasses </a> 
+                    <h4><b>Toys</h4></b>
+                    <a class="dropdown-item" href="#">Remote Control Toys </a> 
+                    <a class="dropdown-item" href="#">Educationaol Toys </a> 
+                    <a class="dropdown-item" href="#">Soft Toys </a> 
+                    <a class="dropdown-item" href="#">Cars & Die-cast Vehicles </a> 
+                    <a class="dropdown-item" href="#">Outdoor Toys </a> 
+                    <a class="dropdown-item" href="#">Action Figures </a> 
+                    <a class="dropdown-item" href="#">Board Games</a> 
+                    <a class="dropdown-item" href="#">Musical Toys </a> 
+                    <a class="dropdown-item" href="#">Puzzles </a> 
+                    <a class="dropdown-item" href="#">Toy Guns </a> 
+                    <a class="dropdown-item" href="#">Party Supplies </a> 
+                    <a class="dropdown-item" href="#">Helicopter & Drones </a> 
+                    <h4><b>School Supplies</h4></b>
+                    <a class="dropdown-item" href="#">School Bags </a> 
+                    <a class="dropdown-item" href="#">School Combo Sets </a> 
+                    <a class="dropdown-item" href="#">Lunch Box </a> 
+                    <h4><b>Baby Care</h4></b>
+                    <a class="dropdown-item" href="#">Diapers </a> 
+                    <a class="dropdown-item" href="#">Wipes</a> 
+                    <a class="dropdown-item" href="#">Baby Grooming </a> 
+                    <a class="dropdown-item" href="#">Baby Food </a> 
+                    <a class="dropdown-item" href="#">Baby Bath, Hair & Skin Care </a> 
+                    <a class="dropdown-item" href="#">Baby Bathing Accesssories </a> 
+                    <a class="dropdown-item" href="#">Baby Oral Care </a> 
+                    <a class="dropdown-item" href="#">Nursing </a> 
+                    <a class="dropdown-item" href="#">Baby Gear </a> 
+                    <a class="dropdown-item" href="#">Baby Feeding Bottles </a> 
+                    <a class="dropdown-item" href="#">Baby Cleaners & Safety </a> 
+                    <a class="dropdown-item" href="#">Baby Proofing </a> 
+                    <a class="dropdown-item" href="#">Baby Gift Sets </a> 
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <b>Home & Furnitures</b>
+                </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <h4><b>Kitchen, Cookware</h4></b>
+                <a class="dropdown-item" href="#">Pans</a>
+                <a class="dropdown-item" href="#">Tawas</a>
+                <a class="dropdown-item" href="#">Pressure Cookers </a>
+                <a class="dropdown-item" href="#">Kitchen tools </a>
+                <a class="dropdown-item" href="#">Gas Stoves </a>
+                <h4><b>Tableware & Dinnerware</h4></b>
+                <a class="dropdown-item" href="#">Coffee Mugs </a>
+                <a class="dropdown-item" href="#">Dinner Sets </a>
+                <a class="dropdown-item" href="#">Barware </a>
+                <h4><b>Kitchen Strorage</h4></b>
+                <a class="dropdown-item" href="#">Watter Bottles </a>
+                <a class="dropdown-item" href="#">Lunch Boxex </a>
+                <a class="dropdown-item" href="#">Flasks </a>
+                <a class="dropdown-item" href="#">Casseroles </a>
+                <a class="dropdown-item" href="#">Kitchen Containers </a>
+                <h4<b>Bed Room Furniture</h4></b>
+                <a class="dropdown-item" href="#">Beds </a>
+                <a class="dropdown-item" href="#">Mattresses </a>
+                <a class="dropdown-item" href="#">Wardrobes </a>
+                <h4><b>Living Room Furniture</h4></b>
+                <a class="dropdown-item" href="#">Sofa </a> 
+                <a class="dropdown-item" href="#">Sofa Beds </a> 
+                <a class="dropdown-item" href="#">TV Units </a> 
+                <a class="dropdown-item" href="#">Dinning Tables & Chairs </a> 
+                <a class="dropdown-item" href="#">Coffee Tables </a> 
+                <a class="dropdown-item" href="#">Shoe Racks </a> 
+                <h4><b>Office & Study Furniture</h4></b>
+                <a class="dropdown-item" href="#">Kids Room Furniture </a> 
+                <h4><b>DIY Furniture</h4></b>
+                <a class="dropdown-item" href="#">Bean Bags </a> 
+                <a class="dropdown-item" href="#">Collaspsible Wardrobes </a> 
+                <h4><b>Furnishing</h4></b>
+                <a class="dropdown-item" href="#">Bedsheets </a> 
+                <a class="dropdown-item" href="#">Curtains </a> 
+                <a class="dropdown-item" href="#">Cushions & Pillows </a> 
+                <a class="dropdown-item" href="#">Blankets </a> 
+                <a class="dropdown-item" href="#">Kitchen & Table Linen </a> 
+                <a class="dropdown-item" href="#">Floor Coverings </a> 
+                <h4><b>Smart Home Automation</h4></b>
+                <a class="dropdown-item" href="#">Smart Security System </a> 
+                <a class="dropdown-item" href="#">Smart Door Locks </a> 
+                <h4><b>Home improvement</h4></b>
+                <a class="dropdown-item" href="#">Tools & Measuring Equipments </a> 
+                <a class="dropdown-item" href="#">Home Utilities & Organizers </a> 
+                <a class="dropdown-item" href="#">Lawn & Gardening </a> 
+                <a class="dropdown-item" href="#">Bathroom & Kitchen Fittings </a> 
+                <h4><b>Home Decor</h4></b>
+                <a class="dropdown-item" href="#">Paintings </a> 
+                <a class="dropdown-item" href="#">Clocks </a> 
+                <a class="dropdown-item" href="#">Wall Shelves </a> 
+                <a class="dropdown-item" href="#">Stickers </a> 
+                <a class="dropdown-item" href="#">Showpieces & Fingurines </a> 
+                <h4><b>Home Lighting</h4></b>
+                <a class="dropdown-item" href="#">Bulbs </a> 
+                <a class="dropdown-item" href="#">Wall Lamp </a> 
+                <a class="dropdown-item" href="#">Table Lamp </a> 
+                <a class="dropdown-item" href="#">Ceiling Lamp </a> 
+                <a class="dropdown-item" href="#">Emergency Lights </a> 
+                <h4><b>Pet Supplies</h4></b>
+                <a class="dropdown-item" href="#">Cats </a> 
+                <a class="dropdown-item" href="#">Dogs </a> 
+                <a class="dropdown-item" href="#">Rabbit </a> 
+                <a class="dropdown-item" href="#">Fish & Aquatics </a> 
+            </div>
+            </li>
+        </ul>
+        </div>
+        
+    </nav>
+        
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Capture.png"  width="1300px" height="250px" />
+        </div>
+        <div class="carousel-item">
+          <img src="iamge.png"  width="1300px" height="250px" />
+        </div>
+        <div class="carousel-item">
+          <img src="image1.png"  width="1300px" height="250px" />
+        </div>
+      </div>
+      
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div> 
+
+        <br>
+        <div class="low">
+         <h2><b>Deals of the Day</b></h2></div>
+        <hr>
+          <div class="container1">
+          <div id="myCarousel" class="carousel slide right" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+              <li data-target="#myCarousel" data-slide-to="6"></li>
+
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="a1.jpg"  style="width:50%;">
+                <div class="desc"><h4><b><p style="color:black;">Headphones & Speakers</b></h4>
+                  <h5>Min 50% Off</p></h5>
+                  <h5>Hurry!</p></h5></div>
+
+              </div>
+        
+              <div class="item">
+                <img src="a2.jpg"  style="width:50%;">
+                <div class="desc"><h4><b><p style="color:black;">Trimmers</b></h4>
+                  <h5>Min 50% Off</p></h5>
+                  <h5>Grab Now!</p></h5></div>
+              </div>
+            
+              <div class="item">
+                <img src="a3.jpg"  style="width:50%;">
+                <div class="desc"><h4><b><p style="color:black;">Smart Devices</b></h4>
+                  <h5>Min 50% Off</p></h5>
+                  <h5>Explore Now!</p></h5></div>
+              </div>
+
+              <div class="item">
+                <img src="a4.jpg"  style="width:50%;">
+                <div class="desc"><h4><b><p style="color:black;">Fitness Accessories</b></h4>
+                  <h5>Min 50% Off</p></h5>
+                  <h5>Great Savings!</p></h5></div>
+              </div>
+
+              <div class="item">
+                <img src="a5.jpg" style="width:50%;">
+                <div class="desc"><h4><b><p style="color:black;">Fans</b></h4>
+                  <h5>Min 50% Off</p></h5>
+                  <h5>Shop Now!</p></h5></div>
+              </div>
+
+              <div class="item">
+                <img src="a6.jpeg" style="width:50%;">
+                <div class="desc"><h4><b><p style="color:black;">Mobile Chargers and Cables</b></h4>
+                  <h5>Min 50% Off</p></h5>
+                  <h5>Hurry!</p></h5></div>
+              </div>
+
+              <div class="item">
+                <img src="a7.jpg" style="width:50%;">
+                <div class="desc"><h4><b><p style="color:black;">Mobile Phones</b></h4>
+                  <h5>Min 50% Off</p></h5>
+                  <h5>Grab Now!</p></h5></div>
+              </div>
+            </div>
+        
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          </div>
+
+          <br>
+
+          <br>
+          <div class="padding">
+              <img src="c1.PNG" width="400" height="300">
+
+              <img src="c2.PNG" width="360" height="300">
+
+              <img src="c3.PNG" width="410" height="300">
+          </div>
+          <br>
+          <div class="top">
+            <h2><b>Top Deals on Cameras</b></h2></div>
+            <hr>
+          <div class="container2">
+            <div id="myCarousel" class="carousel slide left" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="b1.webp"  width="500%" height="30%">
+                  <div class="desc"><h4><b><p style="color:black;"> Apple Mobiles</b></h4>
+                    <h5>From Rs 9,799</p></h5>
+                    <h5>iPone 6,7 & more</p></h5></div>
+                </div>
+          
+                <div class="item">
+                  <img src="b2.png" width="500%" height="30%">
+                  <div class="desc"><h4><b><p style="color:black;"> Samsung Mobiles</b></h4>
+                    <h5>From Rs 2,999</p></h5>
+                    <h5>S6 Edge,Note 8 & More</p></h5></div>
+                </div>
+              
+                <div class="item">
+                  <img src="b3.jpg" width="500%" height="30%">
+                  <div class="desc"><h4><b><p style="color:black;">Phones with 3GB + RAM</b></h4>
+                    <h5>From Rs 4,299</p></h5>
+                    <h5>Nokia,Moto,Mi & more</p></h5></div>
+                </div>
+  
+                <div class="item">
+                  <img src="b4.webp" width="500%" height="30%">
+                  <div class="desc"><h4><b><p style="color:black;">Redmi Note 6 Pro</b></h4>
+                    <h5>Min 40% Off</p></h5>
+                    <h5>4GB & 6GB RAM</p></h5></div>
+                </div>
+
+                <div class="item">
+                  <img src="b5.webp" width="500%" height="30%">
+                  <div class="desc"><h4><b><p style="color:black;">Moto G Series</b></h4>
+                    <h5>Up to 70% Off</p></h5>
+                    <h5>16GB, 32GB & more</p></h5></div>
+                </div>
+
+                <div class="item">
+                  <img src="b6.jpg" width="500%" height="30%">
+                  <div class="desc"><h4><b><p style="color:black;">Redmi Note 4</b></h4>
+                    <h5>From Rs 5,499</p></h5>
+                    <h5>32GB & 64GB</p></h5></div>
+                </div>
+              </div>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            </div>
+            
+            <br>
+            <br>
+              <div class="style">
+                  <img src="download1.jpg" width="360" height="300">
+
+                  <img src="download2.jpg" width="360" height="300">
+
+                  <img src="download3.jpeg" width="360" height="300">
+             </div>
+              <br>
+              <div class="story">
+              <h2><b>Top Stories: Brand Directory</b></h2>
+              <h4><b>Most Searched For On Fast and Furious: </b></h4>Hand Sanitizer | Realme Band
+              | 5G Mobiles | Fast and Furious Videos | Fast and Furious Pay Later | Flight Booking
+              | Mi Air Purifier 2C | Studio Furniture | Air Purifiers
+              | Vaporizer | Hand Wash | Pollution Masks | Rakesh Yadav Books
+              | Chetan Bhagat Books | Amrita Pritam Books | Realme 5i
+              | Realme Buds Air | Earrings | Mens Watches | Unicorn Toys
+              | 3m Masks | Jewellery | Watches | Eid Special Jewellery
+              | Sunglasses | Mi Sunglasses
+              <h4><b>Mobiles: </b></h4> Realme X2 | Realme 5 | Infinix Hot 8
+              | iPhone 11 | iPhone 11 Pro | iPhone 11 Pro Max | Mobile Offers
+              | iphone x | iphone 8 | iphone 7 | iphone 6 | Redmi 5A | 4G Mobile
+              | Nokia Mobile | Samsung Mobile | iphone | Oppo Mobile | Vivo Mobile
+              <h4><b>Camera:</b></h4> GoPro Action Camera | Nikon Camera | Canon Camera
+              | Sony Camera | Nikon DSLR | Canon DSLR
+              <H4><B>Laptops:</B></H4> Branded Laptops | Apple Laptops | Acer Laptops
+              | Lenovo Laptops | Dell Laptops | Asus Laptops | HP Laptops | Business Laptops
+              <h4><b>TVs:</b></h4> LG TV | Sony TV | Samsung TV | Android Tv | Mi TV
+              | MI 40 Inch TV | Samsung 32 Smart Tv
+              <h4><b>Large Appliances:</b></h4> Voltas AC | Hitachi AC | Lloyd Ac
+              | Blue Star AC | Daikin AC | LG AC | Samsung Refrigerators | Haier Refrigerators
+              <h4><b>Clothing:</b></h4> Men Shirts | Men Suits | Men Trousers | Men Blazers
+              | Sarees | Dresses | Skirts | Suits | Gowns | Ethnic Wear | Bra | Gym Wear
+              | Party Dresses | Palazoo | Gloves | NightGowns | Maxi Dresses | Indo Western Dress
+              | Girls Clothes | Tops | Jeans | Jegging | Lehenga | Dress Materials
+              | Summer Dresses | Linen Sarees | Kids Clothing | Pajamas
+              <h4><b>FootWear:</b></h4> Shoes | Slippers | Boots | Sports Shoes | Heels
+              | Nike Shoes | Puma Shoes | Reebok Shoes | Bata Shoes | Wooddland Shoes
+              | Skechers Shoes | Sneakers | Loafers | Casual Shoes
+              <h4><b>Groceries:</b></h4> Rice | Masala & Spices | Pulses | Automatic
+              | Cookies | Noodles | Dry Fruits | Ghee | Olive Oil | soap
+              | Sunflower Oil | Eggs | Mustard Oil | Biscuits | Cheese | Fortune Oil
+              | Juices | Tata Tea | Groceery Store | Chips | Milk | Coffee | Sugar
+              <h4><b>Best Selling On Fast and Furious:</b></h4> Books | Toy Store | Candles
+              | Helmets | Wall Clocks | Baby Food | Cycles | Calculators | Lipsticks
+              <h4><b>Furniture:</b></h4> Furniture | Sofa | Tables | Chairs | Wardrobes
+              | Mattresses | Shelves | Bean Bag | Brown Sofa | Green Sofa 
+              <br>
+              <br>
+              <h3><b>Fast and Furious: The one-stop Shopping Destination</b></h3>
+              <p>E-commerce is revolutionizing the way we all shop in India. 
+                Why do you want to hop from one store to another in search 
+                of the latest phone when you can find it on the Internet in 
+                a single click? Not only mobiles. Fast and Furious houses everything 
+                you can possibly imagine, from trending electronics like laptops, 
+                tablets, smartphones, and mobile accessories to in-vogue fashion 
+                staples like shoes, clothing and lifestyle accessories; from 
+                modern furniture like sofa sets, dining tables, and wardrobes to 
+                appliances that make your life easy like washing machines, TVs, 
+                ACs, mixer grinder juicers and other time-saving kitchen and small 
+                appliances; from home furnishings like cushion covers, mattresses 
+                and bedsheets to toys and musical instruments, we got them all covered. 
+                You name it, and you can stay assured about finding them all here. 
+                For those of you with erratic working hours, Fast and Furious is your best bet. 
+                Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+              </p>
+              <h3><b>Fast and Furious Plus</b></h3>
+              <p>A world of limitless possibilities awaits you - Fast and Furious Plus was kickstarted 
+                as a loyalty reward programme for all its regular customers at zero subscription 
+                fee. All you need is 500 supercoins to be a part of this service. 
+                For every 100 rupees spent on Fast and Furious order, Plus members earns 4 supercoins 
+                & non-plus members earn 2 supercoins. Free delivery, early access during sales 
+                and shopping festivals, exchange offers and priority customer service are the 
+                top benefits to a Fast and Furious Plus member. In short, earn more when you shop more!
+
+                What's more, you can even use the Fast and Furious supercoins for a number of exciting services, like:
+                An annual Zomato Gold membership
+                An annual Hotstar Premium membership
+                6 months Gaana plus subscription
+                Rupees 550 instant discount on flights on ixigo
+                Check out https://www.fastandFurious.com/plus/all-offers for the entire list. Terms and conditions apply.
+              </p>
+              <h3><b>No Cost EMI</b></h3>
+              <p>In an attempt to make high-end products accessible to all, our No 
+                Cost EMI plan enables you to shop with us under EMI, without 
+                shelling out any processing fee. Applicable on select mobiles, 
+                laptops, large and small appliances, furniture, electronics and watches, 
+                you can now shop without burning a hole in your pocket. If you've been 
+                eyeing a product for a long time, chances are it may be up for a no cost EMI. 
+                Take a look ASAP! Terms and conditions apply.
+              </p>
+              <h3><b>EMI on Debit Cards</b></h3>
+              <p>Did you know debit card holders account for 79.38 crore in the country, 
+                while there are only 3.14 crore credit card holders? After enabling EMI 
+                on Credit Cards, in another attempt to make online shopping accessible 
+                to everyone, Fast and Furious introduces EMI on Debit Cards, empowering you to 
+                shop confidently with us without having to worry about pauses in monthly 
+                cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State 
+                Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.
+              </p>
+              <h3><b>Mobile Exchange Offers</b></h3>
+              <p>Get an instant discount on the phone that you have been eyeing on. 
+                Exchange your old mobile for a new one after the Fast and Furious experts calculate 
+                the value of your old phone, provided it is in a working condition without 
+                damage to the screen. If a phone is applicable for an exchange offer, you will 
+                see the 'Buy with Exchange' option on the product description of the phone. So, 
+                be smart, always opt for an exchange wherever possible. Terms and conditions apply.
+              </p>
+              <h2><b>What Can You Buy From Fast and Furious?</b></h2>
+              <h3><b>Mobile Phones</b></h3>
+              <p>From budget phones to state-of-the-art smartphones, we have a 
+                mobile for everybody out there. Whether you're looking for larger, fuller 
+                screens, power-packed batteries, blazing-fast processors, beautification 
+                apps, high-tech selfie cameras or just large internal space, we take care 
+                of all the essentials. Shop from top brands in the country like Samsung, 
+                Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, 
+                you're buying from only the most reliable names in the market. What's more, 
+                with Fast and furious's Complete Mobile Protection Plan, you will never again find 
+                the need to run around service centres. This plan entails you to a number of 
+                post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, 
+                liquid damage to phone, hardware and software glitches, and replacements - the 
+                Fast and Furious Complete Mobile Protection covers a comprehensive range of post-purchase 
+                problems, with door-to-door services.
+              </p>
+              <h3><b>Large Appliances</b></h3>
+              <p>Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful 
+                washing machines - discover everything you need to run a house under 
+                one roof. Our Dependable TV and Appliance Store ensures zero transit 
+                damage, with a replacement guarantee if anything goes wrong; delivery 
+                and installation as per your convenience and a double warranty-
+                rest assured, value for money is what is promised and delivered. 
+                 Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, 
+                 Panasonic, Godrej, Sony, Daikin, and Hitachi among many others.
+              </p>
+              <h3><b>Small Home Appliances</b></h3>
+              <p>Find handy and practical home appliances designed to make your life 
+                simpler: electric kettles, OTGs, microwave ovens, sandwich makers, 
+                hand blenders, coffee makers, and many more other time-saving appliances 
+                that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home.
+              </p>
+              <h3><b>Lifestyle</b></h3>
+              <p>Fast and Furious, 'India ka Fashion Capital', is your one-stop fashion destination 
+                for anything and everything you need to look good. Our exhaustive range of 
+                 and Indian wear, summer and winter clothing, formal and casual footwear, 
+                 bridal and artificial jewellery, long-lasting make-up, grooming tools and 
+                 accessories are sure to sweep you off your feet. Shop from crowd favourites 
+                 like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, 
+                 and Sephora among dozens of other top-of-the-ladder names. From summer staple 
+                 maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart 
+                 biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house 
+                 brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that 
+                 are the talk of the town. Get ready to be spoiled for choice.Festivals, office 
+                 get-togethers, weddings, brunches, or nightwear - Fast and Furious will have your back each time.
+              </p>
+              <h3><b>Baby & Kids</b></h3>
+              <p>Your kids deserve only the best. From bodysuits, booties, diapers to strollers, 
+                if you're an expecting mother or a new mother, you will find everything you need 
+                to set sail on a smooth parenting journey with the help of our baby care collection. 
+                When it comes to safety, hygiene and comfort, you can rely on us without a 
+                second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host 
+                only the most-trusted names in the business for your baby.
+              </p>
+              <h3><b>Books , Sports & Games</b></h3>
+              <p>Work hard and no play? We don't believe in that. Get access to 
+                best-selling fiction and non-fiction books by your favourite authors, 
+                thrilling English and Indian blockbusters, most-wanted gaming consoles, 
+                and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.
+              </p></div>
+              <div class="footer">
+                <div class="row">
+                  <div class="col-sm-2">
+                <h4 style = "color:darkblue;"><b>About</b></h4>
+                <h4><b><a href="https://fast & furious.com"  style = "color:brown;">About Us</a>
+                  <br>
+                  <a href ="https://fast & furious.com"  style = "color:brown;">Contact Us</a>
+                  <br>
+                  <a href="https://fast & furious.com"  style = "color:brown;">Press</a>
+                  <br>
+                  <a href="https://fast & furious.com"  style = "color:brown;">Carrers</a>
+                  <br>
+                  <a href="https://fast & furious.com"  style = "color:brown;">Fast and Furious Stories</b></h4></a>
+                  </div>
+                  <div class="col-sm-2">
+                    <h4 style = "color:darkblue;"><b>Help</b></h4>
+                    <h4><b><a href="https://fast & furious.com"  style = "color:brown;">Payments</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Shipping</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Cancellation & Returns</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">FAQ</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Report Infringement</a></b></h4>
+                  </div>
+                  <div class="col-sm-2">
+                    <h4 style = "color:darkblue;"><b>Policy</b></h4>
+                    <h4><b><a href="https://furious.com"  style = "color:brown;">Return Policy</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Terms of Use</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Security</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Privacy</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Sitemap</a>
+                    </b></h4>
+                  </div>
+                  <div class="col-sm-2">
+                    <h4 style = "color:darkblue;"><b>Social</b></h4>
+                    <h4><b><a href="https://fast & furious.com"  style = "color:brown;">YouTube</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Twitter</a>
+                      <br>
+                      <a href="https://fast & furious.com"  style = "color:brown;">Facebook</a></b></h4>
+                  </div>
+                  
+                  <div class="col-sm-4">
+                    <h4 style = "color:darkblue;"><b>Mail Us:</b></h4>
+                   <b> <p style = "color:brown;">Fast and Furious Internet Private Limited,
+                    <br>
+                    Buildings Alyssa, Begonia &
+                    <br>
+                    Clove Embassy Tech Village,
+                    <br>
+                    Outer Ring Road, Devarabeesanahalli Village,
+                    <br>
+                    Bengaluru, 560103,
+                    <br>
+                    Karnataka, India</p></b>
+                    </div>
+                  <br>
+                  <hr>
+                  <div class="line">
+                    <svg class="bi bi-bag-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 4h14v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm7-2.5A2.5 2.5 0 0 0 5.5 4h-1a3.5 3.5 0 1 1 7 0h-1A2.5 2.5 0 0 0 8 1.5z"/>
+                    </svg> <h4 style = "color:darkblue;"><b>Sell on Fast & furious</b></h4>
+                    &nbsp; &nbsp;
+                    <svg class="bi bi-star-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg><h4 style = "color:darkblue;"> <b>Advertise</b></h4>
+                    &nbsp;&nbsp;
+                    <i class="fa fa-gift" aria-hidden="true"></i><h4 style = "color:darkblue;"><b>Gift Cards</b></h4>
+                    &nbsp;&nbsp;
+                    <svg class="bi bi-question-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.57 6.033H5.25C5.22 4.147 6.68 3.5 8.006 3.5c1.397 0 2.673.73 2.673 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.355H7.117l-.007-.463c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.901 0-1.358.603-1.358 1.384zm1.251 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
+                    </svg><h4 style = "color:darkblue;"><b> Help Center</b></h4>
+                    &nbsp;&nbsp;
+                    <h4 style = "color:darkblue;"><b>© 2007-2020 Fast & furious.com</b></h4>
+                  </div>
+              </div>
+              </div>
+     </div>
+</body>
+</html>

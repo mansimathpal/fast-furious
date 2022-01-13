@@ -1,0 +1,156 @@
+.link
+{
+word-spacing:5px;
+font-size:20px;	
+background-color:skyblue;
+}
+.top-right
+{
+  position: absolute;
+  top: 2%;
+  right: 10%;
+  font-size: 20px;
+  word-spacing: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+.topnav
+{
+    top:3%;
+    right: 30%;
+}
+.logo
+{
+    height: 40px;
+    margin: 5px 10px;
+}
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1 px black;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search-box
+{
+    display: inline-flex;
+    width: 45%;
+}
+.input-group-text
+{
+    background: white;
+    border: 1px black;
+    margin: 8.5px 10px 3px 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.row
+{
+    margin-top: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    display: block;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    width: 250px;
+    padding: 12px 16px;
+    z-index: 1;
+    font-weight: bold;
+    word-spacing: 8px;
+    background-color: white;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.featurette-divider 
+{
+   margin: 5rem 0; 
+}
+
+.align
+{
+  padding: 15px;
+  font-size:20px;
+  word-spacing: 0px;
+  
+}
+.low{
+    margin-left: 20px;
+}
+.padding
+{
+    padding: 10px;
+    display: block;
+    word-spacing: 10px;
+}
+.side
+{
+    padding: 50px;
+}
+.top
+{
+    padding: 0px;
+    display: block;
+    margin-left:20px ;
+}
+.desc
+{
+    text-align: center;
+}
+
+.left
+{
+    width: 500px;
+    top: 10%;
+    margin-left: 20px;
+}
+.style
+{
+    padding: 30px;
+    margin-left: 0px;
+    word-spacing: 25px;
+
+}
+.story
+{
+    margin-left: 20px;
+}
+.footer
+{
+    background-color: #dff99d;
+    min-width: 978px;
+    border-top: 1px solid #ddd;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(221, 221, 221);
+    margin-top: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0px;
+    margin-left: 0px;
+    display: block;
+}
+.line
+{
+    padding: 20px;
+    display: inline-flex;
+    right: 50px;
+    word-spacing: 2px;
+}
+
+
